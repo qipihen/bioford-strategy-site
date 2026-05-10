@@ -88,7 +88,6 @@
 <a class="toc-level-2" href="#8.-转化追踪设计">8. 转化追踪设计</a>
 <a class="toc-level-3" href="#8.1-主转化">8.1 主转化</a>
 <a class="toc-level-3" href="#8.2-辅助转化">8.2 辅助转化</a>
-<a class="toc-level-3" href="#8.3-内部流量监测系统">8.3 内部流量监测系统</a>
 <a class="toc-level-2" href="#9.-限定词与排除词设置">9. 限定词与排除词设置</a>
 <a class="toc-level-3" href="#9.1-全账户通用排除词">9.1 全账户通用排除词</a>
 <a class="toc-level-3" href="#9.2-campaign-级排除词">9.2 Campaign 级排除词</a>
@@ -111,19 +110,19 @@
 <a class="toc-level-3" href="#每周">每周</a>
 <a class="toc-level-3" href="#每月">每月</a>
 <a class="toc-level-2" href="#14.-核心-kpi">14. 核心 KPI</a>
-<a class="toc-level-2" href="#15.-策略总结">15. 策略总结</a>
+<a class="toc-level-2" href="#15.-总结">15. 总结</a>
     </aside>
     <article class="article">
       <p class="eyebrow">SEM</p>
       <h1 id="bioford-投广告整体策略">BioFord 投广告整体策略</h1>
 <p>更新时间：2026-05-11 适用对象：BioFord / OxTium / BioFord AI for BioScience 目标市场：以英文市场为主，优先覆盖美国、英国、加拿大、澳大利亚、新加坡、印度、欧洲科研与生物医药用户。中文市场建议另起单独方案，不和 Google/LinkedIn 英文投放混在一起。</p>
 <h2 id="1.-总体判断">1. 总体判断</h2>
-<p>BioFord 现在不适合一上来大预算铺开。广告投放的前提应是先把站内内容结构、落地页、转化路径和数据追踪补好；否则即使买到点击，也很难稳定转化成有效线索。</p>
+<p>BioFord 现在不适合一上来大预算铺开。广告投放的前提应是先把站内内容结构、落地页、转化路径和转化事件补好；否则即使买到点击，也很难稳定转化成有效线索。</p>
 <p>因此投放策略应分四步：</p>
 <div class="table-wrap"><table>
 <thead><tr><th>阶段</th><th>核心目标</th><th>主要平台</th></tr></thead>
 <tbody>
-<tr><td>第 0 阶段：补站内基础</td><td>完成核心落地页、信任资产、CTA、表单、事件追踪和合规说明</td><td>官网、GA4、GSC、Clarity、CRM / 后台</td></tr>
+<tr><td>第 0 阶段：补站内基础</td><td>完成核心落地页、信任资产、CTA、表单、转化事件和合规说明</td><td>官网、Google Ads、GA4</td></tr>
 <tr><td>第 1 阶段：验证需求</td><td>用搜索广告小预算验证哪些关键词能带来有效线索</td><td>Google Search</td></tr>
 <tr><td>第 2 阶段：建立信任</td><td>用 LinkedIn / YouTube 解释产品能力和科研场景</td><td>LinkedIn Ads、YouTube Ads</td></tr>
 <tr><td>第 3 阶段：放大转化</td><td>有足够转化数据后，再用 PMax / Demand Gen 放大</td><td>Google PMax、Demand Gen、再营销</td></tr>
@@ -134,14 +133,14 @@
 <li>Edison 付费搜索很少，主要投品牌和产品词，更依赖 PR、融资、LinkedIn、NVIDIA 背书。</li>
 <li>Biomni 几乎不靠付费广告，主要靠 Stanford、论文、GitHub、开源和自然搜索。</li>
 </ul>
-<p>BioFord 最合理的做法是：<strong>先补站内承接和数据监测，再用 Google Search 验证需求，LinkedIn 找精准人群，YouTube 做产品解释，PMax 等数据成熟后再上。</strong></p>
+<p>BioFord 最合理的做法是：<strong>先补站内承接和转化追踪，再用 Google Search 验证需求，LinkedIn 找精准人群，YouTube 做产品解释，PMax 等转化数据成熟后再上。</strong></p>
 <h3 id="1.1-投放前置条件">1.1 投放前置条件</h3>
 <div class="table-wrap"><table>
 <thead><tr><th>前置项</th><th>要补齐的内容</th><th>原因</th></tr></thead>
 <tbody>
 <tr><td>内容承接</td><td>首页价值表达、AI for Science 页面、四大 Agent 页面、Model Library、Evidence Hub、案例页</td><td>广告点击需要有对应页面承接，而不是全部导向首页</td></tr>
 <tr><td>转化路径</td><td>试用、预约演示、上传数据、生成 Protocol、下载白皮书等 CTA</td><td>让不同意图的用户都有下一步动作</td></tr>
-<tr><td>数据追踪</td><td>GA4、Google Ads 转化、GSC、Microsoft Clarity、后台线索状态</td><td>判断哪些关键词、页面和人群真正带来有效线索</td></tr>
+<tr><td>转化追踪</td><td>Google Ads 转化、GA4 事件、表单提交、Demo 请求、预约和试用事件</td><td>判断哪些关键词、页面和人群真正带来有效线索</td></tr>
 <tr><td>合规信任</td><td>隐私政策、数据安全、科研用途声明、实验安全边界</td><td>降低生命科学广告审核和用户信任风险</td></tr>
 <tr><td>线索回传</td><td>将线索质量、试用激活、销售反馈回传给投放和后台</td><td>避免只优化点击和表单提交，忽略真实线索质量</td></tr>
 </tbody></table></div>
@@ -247,7 +246,7 @@
 <thead><tr><th>平台</th><th>预算占比</th><th>目标</th></tr></thead>
 <tbody>
 <tr><td>官网内容与落地页</td><td>40%</td><td>补齐 AI for Science、四大 Agent、Model Library、Evidence Hub、案例页</td></tr>
-<tr><td>数据追踪与后台接入</td><td>25%</td><td>打通 GA4、GSC、Clarity、Ads 转化和线索质量</td></tr>
+<tr><td>转化追踪</td><td>25%</td><td>打通 GA4、Google Ads 转化、表单提交、Demo 请求和线索质量</td></tr>
 <tr><td>Demo / 白皮书 / 案例素材</td><td>25%</td><td>准备搜索、LinkedIn 和 YouTube 可用素材</td></tr>
 <tr><td>合规与信任页面</td><td>10%</td><td>补齐隐私、数据安全、科研用途和实验安全说明</td></tr>
 </tbody></table></div>
@@ -358,7 +357,7 @@
 <p>| <code>oxtium bioford</code> |</p>
 <p>| <code>genellm</code> |</p>
 <p>| <code>genellm ai</code> |</p>
-<p>Brand Campaign 的作用不是拿新增流量，是保护品牌、降低同名品牌干扰。</p>
+<p>Brand Campaign 的作用不是拿新增流量，而是保护品牌、降低同名品牌干扰。</p>
 <h2 id="5.-linkedin-投放策略">5. LinkedIn 投放策略</h2>
 <h3 id="5.1-人群设置">5.1 人群设置</h3>
 <div class="table-wrap"><table>
@@ -420,7 +419,7 @@
 <ol>
 <li>使用公司邮箱创建 Google Ads 账户。</li>
 <li>设置付款资料、公司名称、账单地址、税务信息。</li>
-<li>绑定 GA4、Google Tag Manager、Google Search Console。</li>
+<li>绑定 GA4、Google Tag Manager 和 Google Ads 转化事件。</li>
 <li>配置转化事件。</li>
 <li>完成 Advertiser Verification。</li>
 <li>上传广告素材和落地页。</li>
@@ -512,25 +511,6 @@
 <tr><td>Return Visit</td><td>Secondary</td></tr>
 </tbody></table></div>
 <p>不要让广告系统只优化页面浏览。BioFord 应优先优化 Demo、Contact、Lead Form、Qualified Lead。</p>
-<h3 id="8.3-内部流量监测系统">8.3 内部流量监测系统</h3>
-<p>BioFord 可以把官网、搜索、广告和用户行为数据接入内部系统，形成一个面向增长和产品优化的监测面板。这个系统不需要改变产品主流程，主要通过官方 API 和事件埋点实现。</p>
-<div class="table-wrap"><table>
-<thead><tr><th>数据来源</th><th>可接入数据</th><th>用途</th></tr></thead>
-<tbody>
-<tr><td>Google Analytics 4</td><td>访问量、渠道、页面、事件、转化、漏斗</td><td>判断用户从哪里来、在哪一步流失</td></tr>
-<tr><td>Google Search Console</td><td>查询词、曝光、点击、平均排名、索引状态</td><td>判断 SEO、GEO 内容是否被发现</td></tr>
-<tr><td>Google Ads</td><td>花费、点击、关键词、转化、线索成本</td><td>判断哪些广告真正值得继续投</td></tr>
-<tr><td>Microsoft Clarity</td><td>热力图、录屏、滚动深度、点击行为</td><td>判断页面信息是否被看到、CTA 是否被点击</td></tr>
-<tr><td>后台 / CRM</td><td>注册、试用、预约、线索质量、销售反馈</td><td>把广告和内容优化从“表单提交”升级到“有效线索”</td></tr>
-</tbody></table></div>
-<p>建议后台重点展示：</p>
-<ul>
-<li>日均访问量、渠道占比、自然搜索点击、广告花费和转化。</li>
-<li>重点页面的访问、停留、滚动深度和 CTA 点击。</li>
-<li>从访问、注册、预约、试用到有效线索的漏斗。</li>
-<li>关键词、广告组、落地页与线索质量的对应关系。</li>
-<li>Clarity 热力图和录屏入口，辅助判断页面体验问题。</li>
-</ul>
 <h2 id="9.-限定词与排除词设置">9. 限定词与排除词设置</h2>
 <h3 id="9.1-全账户通用排除词">9.1 全账户通用排除词</h3>
 <div class="table-wrap"><table>
@@ -760,7 +740,7 @@
 <tr><td>第 3 阶段</td><td>CAC、Pipeline、付费转化、转化价值</td></tr>
 </tbody></table></div>
 <p>不要只看 CPC 和 CTR。BioFord 的广告应以线索质量和后续转化为准。</p>
-<h2 id="15.-策略总结">15. 策略总结</h2>
+<h2 id="15.-总结">15. 总结</h2>
 <p>BioFord 的投放不应一开始追求大规模曝光，而应先用 Google Search 验证真实需求，用 LinkedIn 精准触达科研和生物医药决策人群，用 YouTube 解释复杂产品，再在有转化数据后谨慎启动 PMax。关键词上，先投 AI for Science、biomedical AI agent、literature synthesis、bioinformatics AI、molecular docking AI、protocol generator 等高相关词；竞品词和 Google Scholar / Elicit / Consensus 入口词小预算测试。账户层面必须先补齐隐私政策、数据安全说明、科研用途声明、转化追踪和合规审核，避免生命科学广告被误判为医疗诊断或治疗广告。</p>
     </article>
   </main>

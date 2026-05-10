@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bioford.zachseo.space/sitemap.xml
